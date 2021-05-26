@@ -10,7 +10,7 @@ import com.amazonaws.services.ec2.AmazonEC2ClientBuilder;
 
 @Configuration
 public class ApplicationConfiguration {
-
+//fgh
     @Bean
     public AmazonEC2 amazonEC2(AWSCredentialsProvider credentialsProvider) {
         return AmazonEC2ClientBuilder
