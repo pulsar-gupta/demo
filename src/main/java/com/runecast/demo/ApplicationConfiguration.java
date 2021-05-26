@@ -7,10 +7,11 @@ import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.ec2.AmazonEC2;
 import com.amazonaws.services.ec2.AmazonEC2ClientBuilder;
+import java.util.*;
 
 @Configuration
 public class ApplicationConfiguration {
-
+//ghy
     @Bean
     public AmazonEC2 amazonEC2(AWSCredentialsProvider credentialsProvider) {
         return AmazonEC2ClientBuilder
